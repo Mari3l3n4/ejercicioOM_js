@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="titulo">Hola Mundo,trabajando con JS</h1>
+        <p id="parrafo"class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellat libero id incidunt assumenda minus nihil veniam ab reiciendis numquam!</p>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellat libero id incidunt assumenda minus nihil veniam ab reiciendis numquam!</p>
+        <button id="boton" class="btn-btn-info">Cambio</button>
+       
+    </div>
+    <script>
+        var boton  = document.getElementById("boton");
+ boton.addEventListener('click',function(){
+         console.log('Me diste un click');
+})
+var boton  = document.getElementById("boton");
+ boton.addEventListener('mouseover',function(){
+         console.log('he pasado sobre el boton');
+})
+var boton  = document.getElementById("boton");
+ boton.addEventListener('mouseout',function(){
+         console.log('adios,boton me alejo');
+})
+
+//var boton = document.getElementById('boton') 
+//boton.onclick = function () {
+   // document.location.href = 'http://otrapagina.com'
+//}este cuadro de codigo sirve para al hacer click en un boton ir a otra pagina 
+    </script>
+</body>
+</html>h
